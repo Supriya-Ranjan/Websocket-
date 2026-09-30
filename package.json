@@ -2,7 +2,9 @@
   "name": "chat-app",
   "version": "1.0.0",
   "main": "index.js",
+  "type": "module",
   "scripts": {
+    "start": "node index.js",
     "test": "echo \"Error: no test specified\" && exit 1",
     "dev": "nodemon index.js"
   },
@@ -18,10 +20,10 @@
   "homepage": "https://github.com/Supriya-Ranjan/Websocket-#readme",
   "description": "",
   "dependencies": {
-    "express": "^5.2.1"
+    "express": "^5.2.1",
+    "socket.io": "^4.8.4"
   },
   "devDependencies": {
-    "nodemon": "^3.1.14",
-    "socket.io": "^4.8.4"
+    "nodemon": "^3.1.14"
   }
 }
